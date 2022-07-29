@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: "Oxygen", sans-serif;
+}
+
+#header-nav {
+    background-color: lightblue;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url("../img/logo.jpg") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+    background-size: contain;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: "Lora", serif;
+    color:black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:link, .navbar-brand a:visited, .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
